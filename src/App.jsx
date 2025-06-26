@@ -6,10 +6,11 @@ function App() {
 
 
   return (
-    <>
-<Navbar />
+    <div className='bg-primary-black overflow-hidden ' > 
+      <Navbar />
+</div>
 
-    </>
+    
   )
 }
 
