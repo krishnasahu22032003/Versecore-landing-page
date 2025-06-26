@@ -2,7 +2,7 @@
 import { motion } from "motion/react"
 import styles from "../../constants/style"
 import { slideIn, staggerContainer, textVariant } from "../../constants/motion"
-import { section } from "motion/react-client"
+
 
 const Hero = () => {
     return (
