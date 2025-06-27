@@ -33,24 +33,23 @@
   }
 .gradient-01 {
   background-image: linear-gradient(
-    270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    250deg,
+    hsl(278, 100%, 16%) 0%,
+    hsl(258, 88%, 28%) 15%,
+    hsl(238, 78%, 45%) 35%,
+    hsl(215, 90%, 56%) 55%,
+    hsl(195, 100%, 65%) 75%,
+    hsl(172, 90%, 70%) 100%
   );
-  filter: blur(125px);
+  filter: blur(145px);
 }
 
 .hero-gradient {
-  background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+  background: radial-gradient(
+    circle at 50% 50%,
+    #00f0ff 0%,
+    #6e00ff 40%,
+    #12001a 100%
   );
 }
 
@@ -61,16 +60,16 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
-  filter: blur(190px);
+  background: radial-gradient(circle, #00fff0 0%, #006a70 100%);
+  filter: blur(220px);
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 60px 0 rgba(0, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .gradient-03 {
@@ -80,8 +79,14 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
-  filter: blur(175px);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(190, 20, 255, 0.3),
+    rgba(0, 255, 209, 0.2),
+    rgba(120, 0, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  filter: blur(200px);
   transform: rotate(-114.2deg);
 }
 
@@ -92,15 +97,15 @@
   left: 30%;
   top: 10%;
 
-  background: rgba(45, 72, 152, 0.75);
-  filter: blur(200px);
+  background: radial-gradient(ellipse at top, #090e1f 0%, #1a0049 100%);
+  filter: blur(220px);
   transform: rotate(-53.13deg);
 }
 
 .gradient-05 {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.015) 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -112,8 +117,8 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
-  filter: blur(175px);
+  background: radial-gradient(circle, #e100ff 0%, #430069 100%);
+  filter: blur(200px);
 }
 
 .footer-gradient {
@@ -123,9 +128,16 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
-  filter: blur(150px);
+  background: linear-gradient(
+    90deg,
+    #00c8ff 0%,
+    #8c00ff 50%,
+    #12001a 100%
+  );
+  filter: blur(160px);
 }
+
+
 
 }
 
