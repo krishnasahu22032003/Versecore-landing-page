@@ -1,12 +1,66 @@
-# React + Vite
+# ⚡ Versecore — Futuristic Metaverse Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Versecore** is a cutting-edge, animated landing page designed to immerse users into the world of the future. Built with React, Framer Motion, GSAP, and Tailwind CSS v4, it features interactive gradients, scroll animations, and a dark-themed, immersive experience inspired by the metaverse revolution.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✨ Fully animated hero section (Framer Motion + GSAP)
+- 🌌 Custom gradient overlays using Tailwind v4
+- 🌍 World exploration UI with dynamic cards
+- 🔮 Scroll-based text and image animations
+- 🧊 Glassmorphism UI with futuristic design language
+- 📱 Fully responsive for all devices
+- 🧠 SplitText & ScrollTrigger integrations (GSAP)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![Versecore Screenshot](./public/images/screenshot.jpg)
+
+> 🌑 Dark mode by default — futuristic and elegant.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**  
+- **Tailwind CSS v4**
+- **Framer Motion**
+- **GSAP (ScrollTrigger, SplitText)**
+- **Vite** (or CRA, depending on your setup)
+
+---
+
+## 📂 Project Structure
+
+/src
+├── components/ # Reusable UI blocks
+├── constants/ # Static data (exploreWorlds, insights, etc.)
+├── styles/ # Custom Tailwind and base styles
+├── App.jsx # Main app entry
+└── main.jsx # ReactDOM render
+
+
+## 📦 Install & Run
+
+
+# Clone the repo
+git clone https://github.com/yourusername/versecore.git
+cd versecore
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+📄 License
+MIT © 2024–2025 Krishna
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction...
+
+(Full MIT License continues in LICENSE file if included.)
+ email: krishna.sahu.work@gmail.com
