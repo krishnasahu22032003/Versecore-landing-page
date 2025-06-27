@@ -2,69 +2,71 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/images/planet-01.jpg',
-    title: 'The Hogwarts',
+    title: 'Nebula Sanctum',
   },
   {
     id: 'world-2',
     imgUrl: '/images/planet-02.jpg',
-    title: 'The Upside Down',
+    title: 'Core Zero',
   },
   {
     id: 'world-3',
     imgUrl: '/images/planet-03.jpg',
-    title: 'Kadirojo Permai',
+    title: 'Verse Valley',
   },
   {
     id: 'world-4',
     imgUrl: '/images/planet-04.jpg',
-    title: 'Paradise Island',
+    title: 'Oblivion Rise',
   },
   {
     id: 'world-5',
     imgUrl: '/images/planet-05.jpg',
-    title: 'Hawkins Labs',
+    title: 'Eclipse Citadel',
   },
 ];
 
+
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Discover a realm that resonates with your digital soul',
+  'Initiate your journey with trust — the core always protects',
+  'Skip the noise, dive straight in, and explore without limits',
 ];
 export const newFeatures = [
   {
     imgUrl: '/images/vrpano.svg',
-    title: 'A new world',
+    title: 'Immersive Realms',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'Explore newly unlocked dimensions crafted for limitless digital journeys inside Versecore.',
   },
   {
     imgUrl: '/images/headset.svg',
-    title: 'More realistic',
+    title: 'Hyperreal Experience',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Enhanced visuals, depth, and motion blur bring unmatched realism to your virtual presence.',
   },
 ];
 export const insights = [
   {
     imgUrl: '/images/planet-06.jpg',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Versecore Launches: A New Era Begins',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      'Step beyond the static screen — enter a realm where virtual worlds respond to your presence.',
   },
   {
     imgUrl: '/images/planet-07.jpg',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: '7 Steps to Unlock Dimensional Mastery',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      'From world-jumping to core syncing — learn how to navigate Versecore like a digital native.',
   },
   {
     imgUrl: '/images/planet-08.jpg',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'One Platform. Limitless Possibilities.',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      'Access multiple realities, craft your experiences, and reshape the future — all from the Versecore gateway.',
   },
 ];
+
 export const socials = [
   {
     name: 'twitter',

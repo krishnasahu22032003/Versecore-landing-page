@@ -15,11 +15,11 @@ const World = () => {
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Users Across the Verse" textStyles="text-center" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>    Locate your allies in real-time and<br className="md:block hidden" />
+      invite them to explore shared realities
           </>
         )}
         textStyles="text-center"

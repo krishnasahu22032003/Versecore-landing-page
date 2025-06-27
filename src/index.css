@@ -13,10 +13,12 @@
   }
 
   html {
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
 
   body {
+     
     font-family: "Eudoxus Sans", sans-serif;
   }
 }
