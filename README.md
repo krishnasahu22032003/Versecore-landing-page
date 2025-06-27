@@ -18,7 +18,7 @@
 
 ## 📸 Preview
 
-![Versecore Screenshot](./public/images/screenshot.jpg)
+![Versecore Screenshot](./images/screenshot.png)
 
 > 🌑 Dark mode by default — futuristic and elegant.
 
