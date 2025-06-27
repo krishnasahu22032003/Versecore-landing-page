@@ -7,6 +7,7 @@ import Explore from './components/Explore'
 import GetStarted from './components/GetsSarted'
 import WhatsNew from './components/WhatsNew'
 import World from './components/World'
+import Insights from './components/Insights'
 function App() {
 
 
@@ -22,6 +23,7 @@ function App() {
       <GetStarted/>
       <WhatsNew/>
       <World/>
+      <Insights/>
     </div>
 
 

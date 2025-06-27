@@ -1,5 +1,6 @@
 'use client'
-import styles from "../../constants/style"
+import { motion } from "motion/react"
+
 import { fadeIn } from "../../constants/motion"
 
 const InsightsCard = ({imgUrl, title, subtitle, index}) => {
