@@ -65,3 +65,21 @@ export const insights = [
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },
 ];
+export const socials = [
+  {
+    name: 'twitter',
+    url: '/images/twitter.svg',
+  },
+  {
+    name: 'linkedin',
+    url: '/images/linkedin.svg',
+  },
+  {
+    name: 'instagram',
+    url: '/images/instagram.svg',
+  },
+  {
+    name: 'facebook',
+    url: '/images/facebook.svg',
+  },
+];
