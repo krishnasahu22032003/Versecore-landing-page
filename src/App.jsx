@@ -9,6 +9,7 @@ import WhatsNew from './components/WhatsNew'
 import World from './components/World'
 import Insights from './components/Insights'
 import Feedback from './components/Feedback.jsx'
+import Footer from './components/Footer.jsx'
 function App() {
 
 
@@ -26,6 +27,7 @@ function App() {
       <World/>
       <Insights/>
       <Feedback/>
+      <Footer/>
     </div>
 
 
