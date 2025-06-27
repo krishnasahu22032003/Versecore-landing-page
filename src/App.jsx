@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Explore from './components/Explore'
 import GetStarted from './components/GetsSarted'
-
+import WhatsNew from './components/WhatsNew'
 function App() {
 
 
@@ -19,6 +19,7 @@ function App() {
         <Explore />
       </div>
       <GetStarted/>
+      <WhatsNew/>
     </div>
 
 

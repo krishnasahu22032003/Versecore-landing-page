@@ -1,6 +1,6 @@
 import styles from "../../constants/style"
 
-const NewFeatures = () => {
+const NewFeatures = ({imgUrl,title,subtitle}) => {
   return (
       <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
     <div
