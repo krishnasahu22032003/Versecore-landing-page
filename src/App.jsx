@@ -8,6 +8,7 @@ import GetStarted from './components/GetsSarted'
 import WhatsNew from './components/WhatsNew'
 import World from './components/World'
 import Insights from './components/Insights'
+import Feedback from './components/Feedback.jsx'
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
       <WhatsNew/>
       <World/>
       <Insights/>
+      <Feedback/>
     </div>
 
 
