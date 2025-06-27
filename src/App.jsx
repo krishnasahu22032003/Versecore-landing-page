@@ -9,17 +9,17 @@ function App() {
 
 
   return (
-    <div className='bg-primary-black overflow-hidden ' > 
+    <div className='bg-primary-black overflow-hidden ' >
       <Navbar />
-      <Hero/>
+      <Hero />
       <div className='relative'>
-      <About/>
-      <div  className='gradient-03 z-0' />
-<Explore/>
+        <About />
+        <div className='gradient-03 z-0' />
+        <Explore />
       </div>
-</div>
+    </div>
 
-    
+
   )
 }
 
