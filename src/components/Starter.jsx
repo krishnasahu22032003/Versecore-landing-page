@@ -1,6 +1,6 @@
 import styles from "../../constants/style"
 
-const Startsteps = ({number,text}) => {
+const Starter = ({number,text}) => {
   return (
   <div className={`${styles.flexCenter} flex-row`}>
       <div
@@ -17,4 +17,4 @@ const Startsteps = ({number,text}) => {
   )
 }
 
-export default Startsteps
+export default Starter

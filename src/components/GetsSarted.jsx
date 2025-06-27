@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import styles from "../../constants/style"
 import { staggerContainer,fadeIn,planetVariants } from "../../constants/motion"
 import { TypingText,TitleText } from "./CustomTexts"
-import Startsteps from "./Startsteps"
+import Starter from "./Starter"
 
 import { startingFeatures } from "../../constants"
 
@@ -36,7 +36,7 @@ const GetStarted = () => {
         <TitleText title={<>Begin exploring with just a simple click</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
-            <Startsteps
+            <Starter
               key={feature}
               number={`${index < 10 ? '0' : ''} ${index + 1}`}
               text={feature}
